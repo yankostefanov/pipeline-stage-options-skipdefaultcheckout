@@ -5,11 +5,11 @@ pipeline {
         stage('Build') {
 			agent any
 			options { 
-				skipDefaultCheckout() 
+				//skipDefaultCheckout() 
 			}		
 
             steps {                
-                echo 'Hello World 1'
+                echo 'Hello World'
             }
         }
     }
